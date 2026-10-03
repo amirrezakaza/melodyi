@@ -1,0 +1,25 @@
+{
+  "id": "./",
+  "name": "Melody | موسیقی، همیشه همراه تو",
+  "short_name": "Melody",
+  "description": "دنیای موسیقی به سبک تو؛ آهنگ‌ها، پلی‌لیست‌ها و کشف هوشمند موسیقی.",
+  "lang": "fa",
+  "dir": "rtl",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#080b17",
+  "theme_color": "#080b17",
+  "categories": ["music", "entertainment"],
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "جستجوی موسیقی", "short_name": "جستجو", "url": "./search/" },
+    { "name": "کشف هوشمند", "short_name": "کشف", "url": "./discover/" },
+    { "name": "پلی‌لیست‌ها", "short_name": "پلی‌لیست", "url": "./playlists/" }
+  ]
+}
